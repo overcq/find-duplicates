@@ -1,2 +1,3 @@
 # find-duplicates
-find duplicate files.
+
+Find duplicate files.
