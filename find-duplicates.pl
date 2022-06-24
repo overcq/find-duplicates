@@ -1,15 +1,16 @@
 #!/usr/bin/perl -w
 ################################################################################
 #   ___   publicplace
-#  ¦OUX¦  ‟Perl”
+#  ¦OUX¦  Perl
 #  ¦Inc¦  “terminal” command
 #   ---   duplicate files finder
 #         program
 # ©overcq                on ‟Gentoo Linux 13.0” “x86_64”            2015‒12‒10 #
 ################################################################################
-#argumenty: ścieżki do katalogów.
-#przy uruchamianiu raczej przekierować wyjście do pliku lub przeglądarki.
-#oprócz plików‐duplikatów w systemie plików program wypisuje również duplikaty wynikające z nakładania się drzew podanych katalogów, ponieważ ścieżka do pliku nie jest używana jako ‘uid’ pliku.
+#TODO Zrobić wypisywanie różnych plików.
+# Argumenty: ścieżki do katalogów.
+# Przy uruchamianiu raczej przekierować wyjście do pliku lub przeglądarki.
+# Oprócz plików‐duplikatów w systemie plików program wypisuje również duplikaty wynikające z nakładania się drzew podanych katalogów, ponieważ ścieżka do pliku nie jest używana jako ‘uid’ pliku.
 #===============================================================================
 use warnings;
 use strict;
